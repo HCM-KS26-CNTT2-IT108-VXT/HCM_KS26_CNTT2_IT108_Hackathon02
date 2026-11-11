@@ -21,6 +21,7 @@ cd ./logs
 get-childitem
 cd ..
 get-childitem -r -force
+
 ```
 
 ### Kết quả liệt kê toàn bộ dự án (Windows: Get-ChildItem -Recurse -Force; macOS: ls -aR)
@@ -128,14 +129,31 @@ get-content ./logs/Studio.log | select-string "status=500" >> logs/loi_500.txt
 ### Lệnh chạy (Windows: nếu dùng Phụ lục 2 thì ghi cả 2 lệnh)
 
 ```shell
-# Ghi lệnh vào đây (xoá dòng này)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+ .\Tong_hop.ps1
 
 ```
 
 ### Nội dung file logs/tong_hop.txt
 
 ```text
-(Dán nội dung file vào đây – xoá dòng này)
+
+=== BAO CAO SU CO WEBSITE ===
+
+2026-08-28 08:16:01 GET /tin-tuc status=404
+2026-08-28 08:47:51 GET /san-pham-cu status=404
+2026-08-28 08:58:24 GET /images/phong-thu-2.jpg status=404
+2026-08-28 09:00:35 GET /images/phong-thu-2.jpg status=404
+
+
+
+
+Count    : 6
+Average  : 
+Sum      : 
+Maximum  : 
+Minimum  : 
+Property : 
 
 ```
 

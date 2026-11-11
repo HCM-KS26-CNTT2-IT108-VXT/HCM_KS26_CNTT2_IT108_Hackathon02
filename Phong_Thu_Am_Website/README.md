@@ -19,4 +19,6 @@ cd ..
 get-childitem -r -force
 
 ```
+- [x] sắp xếp thư mục dự án
+- [ ] upload dự án lên github
 > Không Upload File.env lên GitHub
