@@ -186,7 +186,7 @@ Property :
 ### Câu tìm kiếm Google
 
 ```text
-(Ghi câu tìm kiếm vào đây – xoá dòng này)
+site:stackoverflow.com "ERR_FILE_NOT_FOUND"
 
 ```
 
