@@ -161,9 +161,9 @@ Property :
 
 > README.md, .gitignore và .env.example được chấm trực tiếp trên file ở gốc dự án. Đánh dấu `[x]` vào các mục đã làm để tự kiểm tra.
 
-- [ ] README.md: Heading 1, mô tả có **in đậm** và *in nghiêng*, bảng, code block, task list, blockquote
-- [ ] .gitignore có dòng `.env` (tên file đúng, không có đuôi .txt)
-- [ ] .env.example có đủ tên biến, giá trị để trống (tên file đúng, không có đuôi .txt)
+- [X] README.md: Heading 1, mô tả có **in đậm** và *in nghiêng*, bảng, code block, task list, blockquote
+- [X] .gitignore có dòng `.env` (tên file đúng, không có đuôi .txt)
+- [X] .env.example có đủ tên biến, giá trị để trống (tên file đúng, không có đuôi .txt)
 
 ## 4.6. Kiểm tra trang web bằng DevTools (F12) và báo cáo lỗi
 
@@ -171,8 +171,8 @@ Property :
 
 | STT | Tab DevTools phát hiện lỗi | Tên file hoặc thông báo lỗi | Cách khắc phục |
 | --- | --- | --- | --- |
-| 1 |  |  |  |
-| 2 |  |  |  |
+| 1 | network | logo-sound.png | đổi tên file ảnh: images/logo-soundlab.png  |
+| 2 |  console | hienThiGoiThuAm | doi lai thanh: hienThiGoiThu  |
 
 > Ảnh chụp màn hình lưu trong thư mục `evidence/` (network.png, console.png).
 
