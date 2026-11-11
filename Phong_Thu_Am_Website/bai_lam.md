@@ -178,10 +178,10 @@ Property :
 
 ### Báo cáo lỗi gửi trưởng nhóm
 
-- **Context:** 
-- **Expected:** 
-- **Actual:** 
-- **Log:** 
+- **Context:**  Khi mở website bằng Chrome trên Windows và truy cập trang chủ
+- **Expected:** muốn hiển thị logo và bảng giá
+- **Actual:** website không hiển thị logo và Bảng giá gói thu âm
+- **Log:** ko tìm thấy file đó và bảng ko hiện 
 
 ### Câu tìm kiếm Google
 
